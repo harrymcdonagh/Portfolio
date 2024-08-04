@@ -38,7 +38,7 @@ const projects = [
           personalized accounts to manage their watchlists and portfolios.
         </p>
         <p>
-          The app will use Tailwind CSS and SHADCN/UI for a clean and responsive design
+          The app will use Tailwind CSS and Shadcn/ui for a clean and responsive design
           that works well on any device.
         </p>
       </>
