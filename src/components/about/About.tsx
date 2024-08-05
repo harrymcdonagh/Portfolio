@@ -2,14 +2,14 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { SectionHeader } from "../util/SectionHeader";
 import Reveal from "../util/Reveal";
 import { MyLinks } from "../nav/Header";
-import { Stats } from "./Stats";
+import { MoreInfo } from "./MoreInfo";
 
 export const About = () => {
   return (
     <section id="about" className="section-wrapper">
       <SectionHeader title="About" dir="l" />
       <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
-        <div className="space-y-4">
+        <div className="pt-0 md:pt-12 space-y-4">
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               <span className="bg-sky-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
@@ -30,9 +30,9 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              I&apos;m actively looking for graduate positions where I can use the skills
-              and knowledge that I have gained at University and through my Projects in
-              the real world.
+              I am actively pursuing graduate positions and internships where I can
+              utilize my university education and project experience to apply my skills in
+              a real-world context.
             </p>
           </Reveal>
           <Reveal>
@@ -45,7 +45,7 @@ export const About = () => {
             </div>
           </Reveal>
         </div>
-        <Stats />
+        <MoreInfo />
       </div>
     </section>
   );

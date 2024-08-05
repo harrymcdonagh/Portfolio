@@ -1,6 +1,5 @@
 import Reveal from "../util/Reveal";
 import { OutlineButton } from "../buttons/OutlineButton";
-import Image from "./Image";
 
 const Hero = () => {
   return (
@@ -37,7 +36,6 @@ const Hero = () => {
             </OutlineButton>
           </Reveal>
         </div>
-        <Image />
       </div>
     </section>
   );
