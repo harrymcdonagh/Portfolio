@@ -7,7 +7,7 @@ export const Developing = () => {
     <section className="section-wrapper" id="developing">
       <SectionHeader title="Developing" dir="l" />
 
-      <div className="grid gap-6 grid-cols-2 ">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 ">
         {projects.map((project) => {
           return <DProject key={project.title} {...project} />;
         })}
