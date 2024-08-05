@@ -76,7 +76,7 @@ const projects = [
   },
   {
     title: "Gamehub",
-    imgSrc: "project-imgs/gamehub.jpg",
+    imgSrc: "project-imgs/gamehub.JPG",
     imgGif: "project-imgs/gamehub-preview.gif",
     code: "https://github.com/harrymcdonagh/gamehub",
     projectLink: "https://gamehub-ten-blush.vercel.app/",

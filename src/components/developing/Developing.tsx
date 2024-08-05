@@ -19,7 +19,7 @@ export const Developing = () => {
 const projects = [
   {
     title: "Voyage",
-    imgSrc: "project-imgs/voyage.jpg",
+    imgSrc: "project-imgs/voyage.JPG",
     imgGif: "project-imgs/voyage-preview.gif",
     code: "https://github.com/harrymcdonagh/voyage",
     tech: ["React", "Next.js", "Typescript", "Tailwind", "Chart.js", "APIs"],
