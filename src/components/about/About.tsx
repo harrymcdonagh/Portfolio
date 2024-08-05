@@ -12,10 +12,7 @@ export const About = () => {
         <div className="pt-0 md:pt-12 space-y-4">
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              <span className="bg-sky-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
-                H
-              </span>
-              ey! I&apos;m Harry, I&apos;m an aspiring software engineer from Brentwood,
+              Hi! I&apos;m Harry, I&apos;m an aspiring software engineer from Brentwood,
               Essex. I am currently in my final year at the University of East Anglia,
               pursuing a degree in Computer Science.
             </p>
