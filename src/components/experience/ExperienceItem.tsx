@@ -6,7 +6,7 @@ interface Props {
   position: string;
   time: string;
   location: string;
-  description: string;
+  description: string | string[];
   tech: string[];
 }
 
@@ -38,7 +38,15 @@ export const ExperienceItem = ({
         </Reveal>
       </div>
       <Reveal>
-        <p className="mb-6 text-zinc-300 leading-relaxed">{description}</p>
+        {Array.isArray(description) ? (
+          <ul className="list-disc pl-5 mb-6 text-zinc-300 leading-relaxed">
+            {description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mb-6 text-zinc-300 leading-relaxed">{description}</p>
+        )}
       </Reveal>
       <Reveal>
         <div className="flex flex-wrap gap-2">
