@@ -30,12 +30,12 @@ const projects = [
       <>
         <p>
           Crypto Voyage is a web-based React application designed to help users navigate
-          and analyze the top cryptocurrencies.
+          and analyse the top cryptocurrencies.
         </p>
         <p>
           It allows users to track historical coin prices, view top gainers and losers,
           add to their own watchlist, and find important information about specific coins;
-          including using ChartJS to display the historical prices.
+          including using Chart.js to display the historical prices.
         </p>
         <p>
           API&apos;s I used to create this app were CoinMarketCapApi to fetch the current
@@ -60,7 +60,8 @@ const projects = [
       <>
         <p>
           Cambodia Care, is an eco-tourism website with the goal of assisting people in
-          Cambodia, based on the Engineers Without Borders 2024 challenge brief.
+          Cambodia. This project is based on the Engineers Without Borders 2024 challenge
+          brief.
         </p>
         <p>
           Built the backend using Node.js and Express, implementing an MVC architecture,

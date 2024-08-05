@@ -28,7 +28,7 @@ export const MoreInfo = () => {
               <Chip>NodeJS</Chip>
               <Chip>Express</Chip>
               <Chip>MySQL</Chip>
-              <Chip>GitHub</Chip>
+              <Chip>Git</Chip>
               <Chip>C</Chip>
               <Chip>C++</Chip>
             </div>
