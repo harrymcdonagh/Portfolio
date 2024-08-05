@@ -13,7 +13,7 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="w-full">
           <p className="text-center my-8 text-zinc-300 leading-relaxed">
-            Shoot me an email if you want to connect! You can also find me on{" "}
+            Send me an email if you want to connect! You can also find me on{" "}
             <Link
               href="https://www.linkedin.com/in/harry-mcdonagh-2a069b2a2/"
               target="_blank"
