@@ -18,7 +18,7 @@ export const MyLinks = () => (
   <div className="flex items-center text-lg gap-4">
     <Link
       className="text-zinc-300 hover:text-sky-300 transition-colors"
-      href="https://www.linkedin.com/in/harry-mcdonagh-2a069b2a2"
+      href="https://www.linkedin.com/in/harry-mcdonagh/"
       target="_blank"
       rel="nofollow"
     >

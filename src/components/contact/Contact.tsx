@@ -15,7 +15,7 @@ export const Contact = () => {
           <p className="text-center my-8 text-zinc-300 leading-relaxed">
             Send me an email if you want to connect! You can also find me on{" "}
             <Link
-              href="https://www.linkedin.com/in/harry-mcdonagh-2a069b2a2/"
+              href="https://www.linkedin.com/in/harry-mcdonagh/"
               target="_blank"
               className="text-sky-300 hover:underline"
             >
