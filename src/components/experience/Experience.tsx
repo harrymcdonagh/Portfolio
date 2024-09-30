@@ -16,23 +16,23 @@ const experience = [
   {
     title: "Horizone Ltd",
     position: "IT Technician",
-    time: "02/2022 - 09/2022",
+    time: "February 2022 - September 2022",
     location: "Maldon",
     description: [
-      "Resolved IT and telecommunications-related service tickets for customers, operating both individually and collaboratively within a team environment.",
-      "Successfully automated the invoice mailing process, significantly increasing efficiency and reducing the time spent on this task.",
-      "Administered Microsoft accounts for customers' employees",
-      "Acquired hands-on experience in implementing and troubleshooting network infrastructures within office environments",
+      "Improved efficiency and customer experiences by developing a VBA-driven system to automate invoice processes.",
+      "Identified and implemented improvements to internal efficiency and the customer experience",
+      "Managed Microsoft accounts, ensuring policy compliance while maximising user access.",
+      "Enhanced office connectivity and system performance by building and troubleshooting network infrastructures",
     ],
     tech: ["VBA", "Office 365", "SQL"],
   },
   {
     title: "JP Morgan",
     position: "Software Engineering Virtual Experience on Forage",
-    time: "02/2024",
+    time: "February 2024",
     location: "Online ",
     description:
-      "Used JPMorgan Chase's open-source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor",
+      "Established and maintained a local development environment, rectified broken files to optimise web application performance, and used JPMorgan Chase's Perspective library to create real-time, visually appealing data visualisations for trader monitoring.",
     tech: ["Git", "Python", "Perspective"],
   },
 ];

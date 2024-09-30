@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { DProjectModal } from "./DProjectModal";
 import Reveal from "../util/Reveal";
+import React from "react";
 
 interface Props {
   modalContent: JSX.Element;

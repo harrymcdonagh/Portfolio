@@ -12,23 +12,23 @@ export const About = () => {
         <div className="pt-0 md:pt-12 space-y-4">
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              Hi! I&apos;m Harry, I&apos;m an aspiring software engineer from Brentwood,
-              Essex. I am currently in my final year at the University of East Anglia,
-              pursuing a degree in Computer Science.
+              Hi! I&apos;m Harry, an aspiring software engineer from Brentwood, Essex. I
+              am currently in my third year studying Computer Science at the University of
+              East Anglia.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               During my time at University I have developed a passion for software
-              development and engineering, and have been working on a variety of projects
-              to improve my skills and knowledge. I have experience with a range of
-              technologies and languages, including React, JavaScript, Python and Java.
+              development, and have been working on a variety of projects to improve my
+              skills and knowledge. I have experience with a range of technologies and
+              languages, including Java, Python, Typescript and React.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               I am actively pursuing graduate positions and internships where I can
-              utilize my university education and project experience to apply my skills in
+              utilise my university education and project experience to apply my skills in
               a real-world context.
             </p>
           </Reveal>

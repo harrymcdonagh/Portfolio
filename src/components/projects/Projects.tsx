@@ -23,9 +23,9 @@ const projects = [
     imgGif: "project-imgs/cryptovoyage-preview.gif",
     code: "https://github.com/harrymcdonagh/crypto-voyage",
     projectLink: "https://crypto-voyage.vercel.app/",
-    tech: ["React", "Typescript", "Chart.js", "APIs"],
+    tech: ["Typescript", "React", "Chart.js", "APIs"],
     description:
-      "A web-based React application designed to help users navigate and analyze the top cryptocurrencies.",
+      "A web-based React application designed to help users navigate and analyse the top cryptocurrencies.",
     modalContent: (
       <>
         <p>
@@ -53,7 +53,7 @@ const projects = [
     imgSrc: "project-imgs/cambodiacare.JPG",
     imgGif: "project-imgs/cambodiacare-preview.gif",
     code: "https://github.com/harrymcdonagh/Cambodia-Care",
-    tech: ["Node", "Express", "MySQL", "HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "JavaScript", "CSS", "SQL", "Node.js", "Express"],
     description:
       "An eco-tourism website with the goal of assisting people in Cambodia, based on the Engineers Without Borders 2024 challenge brief.",
     modalContent: (
@@ -69,7 +69,7 @@ const projects = [
           and trip booking functionalities
         </p>
         <p>
-          Developed the front end with CSS, Express Layouts, and JavaScript, utilizing
+          Developed the front end with CSS, Express Layouts, and JavaScript, utilising
           Express-Session for secure session management and dynamic page rendering.
         </p>
       </>
@@ -81,7 +81,7 @@ const projects = [
     imgGif: "project-imgs/gamehub-preview.gif",
     code: "https://github.com/harrymcdonagh/gamehub",
     projectLink: "https://gamehub-ten-blush.vercel.app/",
-    tech: ["React", "Typescript", "RAWGAPI"],
+    tech: ["Typescript", "React", "RAWGAPI"],
     description:
       "A Game browser application that allows users to search for games, and allows for filtering",
     modalContent: (
@@ -92,9 +92,9 @@ const projects = [
           genre, and more.
         </p>
         <p>
-          This project was my first time using React and an API, I learned a lot about the
-          best practices of react and how to use the data returned by an API to create a
-          searchable list of games.
+          This project was my first time using React, Typescript and an API, I learned a
+          lot about the best practices of React and how to use the data returned by an API
+          to create a searchable list of games.
         </p>
       </>
     ),

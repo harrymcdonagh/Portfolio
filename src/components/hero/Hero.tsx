@@ -13,7 +13,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <h2 className="pointer-events-auto my-2 text-xl sm:text-2xl text-zinc-300 md:my-4 md:text-4xl">
-              I'm an{" "}
+              An{" "}
               <span className="font-semibold text-sky-400">
                 Aspiring Software Engineer
               </span>
@@ -21,8 +21,8 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              Im an undergraduate Computer Science student, with a growing passion for
-              software development and a keen interest in web technologies ✨
+              I&apos;m a third year Computer Science student, with a growing passion for
+              software development ✨
             </p>
           </Reveal>
           <Reveal>

@@ -2,6 +2,7 @@ import { Chip } from "../util/Chip";
 import Reveal from "../util/Reveal";
 import { AiFillCode } from "react-icons/ai";
 import HeadshotImage from "./HeadshotImage";
+import React from "react";
 
 export const MoreInfo = () => {
   return (
@@ -16,21 +17,14 @@ export const MoreInfo = () => {
               <span className="font-bold ml-2">Programming Languages</span>
             </h4>
             <div className="flex flex-wrap gap-2 mb-12">
-              <Chip>JavaScript</Chip>
               <Chip>Java</Chip>
+              <Chip>JavaScript</Chip>
               <Chip>Python</Chip>
               <Chip>TypeScript</Chip>
               <Chip>HTML</Chip>
               <Chip>CSS</Chip>
-              <Chip>Tailwind</Chip>
-              <Chip>React</Chip>
-              <Chip>Next.js</Chip>
-              <Chip>NodeJS</Chip>
-              <Chip>Express</Chip>
-              <Chip>MySQL</Chip>
+              <Chip>SQL</Chip>
               <Chip>Git</Chip>
-              <Chip>C</Chip>
-              <Chip>C++</Chip>
             </div>
           </div>
         </>

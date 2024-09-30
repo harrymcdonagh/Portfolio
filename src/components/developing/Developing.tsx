@@ -22,9 +22,9 @@ const projects = [
     imgSrc: "project-imgs/voyage.JPG",
     imgGif: "project-imgs/voyage-preview.gif",
     code: "https://github.com/harrymcdonagh/voyage",
-    tech: ["React", "Next.js", "Typescript", "Tailwind", "Chart.js", "APIs"],
+    tech: ["Typescript", "React", "Tailwind", "Next.js", "APIs"],
     description:
-      "A web-based React application designed to help users navigate and analyze the top cryptocurrencies.",
+      "An upgrade of my CryptoVoyage project, Voyage has a better design, and adds new features such as user accounts and a portfolio tracker",
     modalContent: (
       <>
         <p>
@@ -33,13 +33,12 @@ const projects = [
           CoinMarketCapAPI and CoinAPI for real-time and historical data.
         </p>
         <p>
-          With Next.js, Voyage will let users track their investments through a portfolio
-          page. It will include a login and registration system using MySQL, giving users
-          personalized accounts to manage their watchlists and portfolios.
+          Voyage will let users track their investments through a portfolio page. It will
+          include a login and registration system using Auth.js and a postgres database,
+          giving users personalized accounts to manage their watchlists and portfolios.
         </p>
         <p>
-          The app will use Tailwind CSS and Shadcn/ui for a clean and responsive design
-          that works well on any device.
+          The app will use Tailwind CSS and Shadcn/ui for a clean and responsive design.
         </p>
       </>
     ),
