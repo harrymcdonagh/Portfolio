@@ -15,6 +15,7 @@ interface Props {
   tech: string[];
   title: string;
   code: string;
+  devStage: string;
 }
 
 export const DProject = ({
@@ -26,6 +27,7 @@ export const DProject = ({
   title,
   code,
   tech,
+  devStage,
 }: Props) => {
   const [hovered, setHovered] = useState(false);
 
@@ -90,6 +92,20 @@ export const DProject = ({
                 </Link>
               )}
             </div>
+          </Reveal>
+          <Reveal>
+            <p className="text-zinc-300 text-sm mt-2">
+              Stage:{" "}
+              {devStage === "Early-Stage Development" ? (
+                <span className="text-red-400">{devStage}</span>
+              ) : devStage === "Mid-Stage Development" ? (
+                <span className="text-yellow-400">{devStage}</span>
+              ) : devStage === "Late-Stage Development" ? (
+                <span className="text-green-500">{devStage}</span>
+              ) : (
+                <span className="text-cyan-400">{devStage}</span>
+              )}
+            </p>
           </Reveal>
           <Reveal>
             <div className="flex flex-wrap gap-4 text-sm text-sky-300 my-2">
