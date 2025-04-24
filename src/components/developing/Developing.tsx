@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Sylvie",
     imgSrc: "project-imgs/sylvie.jpg",
-    imgGif: "project-imgs/sylvie.jpg",
+    imgGif: "project-imgs/sylvie-preview.jpg",
     code: "https://github.com/harrymcdonagh/Sylvie",
     devStage: "Mid-Stage Development",
     tech: ["Python", "React", "Next.js", "MongoDB"],
@@ -66,9 +66,8 @@ const projects = [
           project report document using LaTeX.
         </p>
         <p>
-          The chatbot will be built using Python and the React framework, and will use
-          Natural Language Processing (NLP) techniques to understand and respond to user
-          input.
+          The chatbot will be built using Python, React and use the llama 3.1 model which
+          will be fine-tuned to answer questions regarding university life.
         </p>
       </>
     ),
