@@ -76,6 +76,28 @@ const projects = [
     ),
   },
   {
+    title: "SolveIt",
+    imgSrc: "project-imgs/solveit.jpg",
+    imgGif: "project-imgs/solveit-preview.jpg",
+    code: "https://github.com/harrymcdonagh/SolveIt",
+    tech: ["WPF", "C#", "F#"],
+    description:
+      "Desktop software solution used to evaluate and solve mathematical expressions and equations.",
+    modalContent: (
+      <>
+        <p>
+          SolveIt, is a desktop application used to solve, evaluate and plot mathematical
+          expressions and equations. It is built using a C# WBF frontend and a F# backend,
+          which includes a custom interpreter.
+        </p>
+        <p>
+          It will be able to plot, linear and polynomial functions using OxyPlot, and
+          allows for variable assignment and usage.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Gamehub",
     imgSrc: "project-imgs/gamehub.JPG",
     imgGif: "project-imgs/gamehub-preview.gif",

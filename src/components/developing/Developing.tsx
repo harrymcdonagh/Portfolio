@@ -25,7 +25,7 @@ const projects = [
     devStage: "Mid-Stage Development",
     tech: ["Typescript", "React", "Tailwind", "Next.js", "APIs"],
     description:
-      "An upgrade of my CryptoVoyage project, Voyage has a better design, and adds new features such as user accounts and a portfolio tracker",
+      "An upgrade of my CryptoVoyage project, Voyage has an enhanced design, and adds new features such as user accounts and a portfolio tracker",
     modalContent: (
       <>
         <p>
@@ -45,35 +45,12 @@ const projects = [
     ),
   },
   {
-    title: "SolveIt",
-    imgSrc: "project-imgs/solveit.jpg",
-    imgGif: "project-imgs/solveit.jpg",
-    code: "https://github.com/harrymcdonagh/SolveIt",
-    devStage: "Early-Stage Development",
-    tech: ["WPF", "C#", "F#"],
-    description:
-      "Desktop software solution used to evaluate and solve mathematical expressions and equations.",
-    modalContent: (
-      <>
-        <p>
-          SolveIt, is a desktop application used to solve, evaluate and plot mathematical
-          expressions and equations. It is built using a C# WBF frontend and a F# backend,
-          which includes a custom interpreter.
-        </p>
-        <p>
-          It will be able to plot, linear and polynomial functions using OxyPlot, and
-          allows for variable assignment and usage.
-        </p>
-      </>
-    ),
-  },
-  {
     title: "Sylvie",
     imgSrc: "project-imgs/sylvie.jpg",
     imgGif: "project-imgs/sylvie.jpg",
     code: "https://github.com/harrymcdonagh/Sylvie",
-    devStage: "Planning",
-    tech: ["Python", "React"],
+    devStage: "Mid-Stage Development",
+    tech: ["Python", "React", "Next.js", "MongoDB"],
     description:
       "An Intelligent Chatbot, aimed to support UEA students by answering their queries about well-being and general university life.",
     modalContent: (
@@ -93,7 +70,6 @@ const projects = [
           Natural Language Processing (NLP) techniques to understand and respond to user
           input.
         </p>
-        <p>Slyvie is currently in the Design stage of development.</p>
       </>
     ),
   },
