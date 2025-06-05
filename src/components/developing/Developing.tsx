@@ -44,32 +44,4 @@ const projects = [
       </>
     ),
   },
-  {
-    title: "Sylvie",
-    imgSrc: "project-imgs/sylvie.jpg",
-    imgGif: "project-imgs/sylvie-preview.jpg",
-    code: "https://github.com/harrymcdonagh/Sylvie",
-    devStage: "Mid-Stage Development",
-    tech: ["Python", "React", "Next.js", "MongoDB"],
-    description:
-      "An Intelligent Chatbot, aimed to support UEA students by answering their queries about well-being and general university life.",
-    modalContent: (
-      <>
-        <p>
-          Sylvie is an intelligent chatbot, aimed to support university students by being
-          able to answer queries regarding well-being, university life and information
-          about the Norwich surrounding area.
-        </p>
-        <p>
-          This project is my final year project at UEA, and will combine all the knowledge
-          I have gained during my degree. As part of the project, I will be producing a
-          project report document using LaTeX.
-        </p>
-        <p>
-          The chatbot will be built using Python, React and use the llama 3.1 model which
-          will be fine-tuned to answer questions regarding university life.
-        </p>
-      </>
-    ),
-  },
 ];

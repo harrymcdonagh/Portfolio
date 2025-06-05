@@ -18,6 +18,35 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Sylvie",
+    imgSrc: "project-imgs/sylvie.jpg",
+    imgGif: "project-imgs/sylvie-preview.jpg",
+    code: "https://github.com/harrymcdonagh/Sylvie",
+    tech: ["Python", "React", "Next.js", "MongoDB"],
+    description:
+      "An intelligent chatbot designed to support UEA students by answering queries about well-being and university life",
+    modalContent: (
+      <>
+        <p>
+          Sylvie is an intelligent chatbot created to support university students by
+          answering queries related to well-being, campus life, and services in the
+          Norwich area.
+        </p>
+        <p>
+          Built as my final year project at UEA, this system demonstrates the culmination
+          of my degree knowledge, combining a React-based frontend with a Python FastAPI
+          backend and a retrieval-augmented generation (RAG) pipeline.
+        </p>
+        <p>
+          The project includes a semantic search over a curated knowledge base of student
+          services, persistent chat history via MongoDB, and custom prompt engineering to
+          ensure helpful and safe responses. A detailed technical report was produced
+          alongside the system.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Crypto Voyage",
     imgSrc: "project-imgs/cryptovoyage.jpg",
     imgGif: "project-imgs/cryptovoyage-preview.gif",
@@ -93,30 +122,6 @@ const projects = [
         <p>
           It will be able to plot, linear and polynomial functions using OxyPlot, and
           allows for variable assignment and usage.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Gamehub",
-    imgSrc: "project-imgs/gamehub.JPG",
-    imgGif: "project-imgs/gamehub-preview.gif",
-    code: "https://github.com/harrymcdonagh/gamehub",
-    projectLink: "https://gamehub-ten-blush.vercel.app/",
-    tech: ["Typescript", "React", "RAWGAPI"],
-    description:
-      "A Game browser application that allows users to search for games, and allows for filtering",
-    modalContent: (
-      <>
-        <p>
-          GameHub is a video game discovery web app that helps you find new and
-          interesting games to play. With GameHub, you can search for games by platform,
-          genre, and more.
-        </p>
-        <p>
-          This project was my first time using React, Typescript and an API, I learned a
-          lot about the best practices of React and how to use the data returned by an API
-          to create a searchable list of games.
         </p>
       </>
     ),
