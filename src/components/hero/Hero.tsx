@@ -21,7 +21,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              I&apos;m a third year Computer Science student, with a growing passion for
+              I&apos;m a recent Computer Science graduate, with a growing passion for
               software development ✨
             </p>
           </Reveal>

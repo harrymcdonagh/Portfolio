@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLeetcode, SiLinkedin } from "react-icons/si";
 import { OutlineButton } from "../buttons/OutlineButton";
 
 export const Header = () => {
@@ -31,6 +31,14 @@ export const MyLinks = () => (
       rel="nofollow"
     >
       <SiGithub />
+    </Link>
+    <Link
+      className="text-zinc-300 hover:text-sky-300 transition-colors"
+      href="https://leetcode.com/u/harrym02/"
+      target="_blank"
+      rel="nofollow"
+    >
+      <SiLeetcode />
     </Link>
   </div>
 );

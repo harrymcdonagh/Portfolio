@@ -111,17 +111,19 @@ const projects = [
     code: "https://github.com/harrymcdonagh/SolveIt",
     tech: ["WPF", "C#", "F#"],
     description:
-      "Desktop software solution used to evaluate and solve mathematical expressions and equations.",
+      "A desktop math app with a custom F# interpreter and C# WPF GUI, that evaluates and plots expressions",
     modalContent: (
       <>
         <p>
-          SolveIt, is a desktop application used to solve, evaluate and plot mathematical
-          expressions and equations. It is built using a C# WBF frontend and a F# backend,
-          which includes a custom interpreter.
+          SolveIt combines a custom F# interpreter with a C# WPF frontend to evaluate
+          mathematical expressions and covers basic arithmetic, unary minus, powers,
+          modulo, and trigonometric functions (sin, cos). It supports variable assignment,
+          enforces BODMAS, and surfaces syntax/runtime errors directly in the UI.
         </p>
         <p>
-          It will be able to plot, linear and polynomial functions using OxyPlot, and
-          allows for variable assignment and usage.
+          Using OxyPlot for rich interactivity, SolveIt plots linear, polynomial,
+          exponential, and trigonometric functions with zooming, panning, and axis
+          controls, all within an intuitive, responsive interface.
         </p>
       </>
     ),

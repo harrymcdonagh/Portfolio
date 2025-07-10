@@ -13,16 +13,16 @@ export const About = () => {
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               Hi! I&apos;m Harry, an aspiring software engineer from Brentwood, Essex. I
-              am currently in my third year studying Computer Science at the University of
+              recently graduated with a 2:1 in Computer Science from the University of
               East Anglia.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              During my time at University I have developed a passion for software
-              development, and have been working on a variety of projects to improve my
-              skills and knowledge. I have experience with a range of technologies and
-              languages, including Java, Python, Typescript and React.
+              During my time at university I developed a passion for software development,
+              and have been working on a variety of projects alongside university, to
+              improve my programming skills and knowledge. I have experience with a range
+              of technologies and languages, including Python, Java, Typescript and React.
             </p>
           </Reveal>
           <Reveal>
