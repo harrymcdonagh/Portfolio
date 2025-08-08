@@ -47,7 +47,7 @@ const projects = [
     ),
   },
   {
-    title: "Crypto Voyage",
+    title: "CryptoVoyage",
     imgSrc: "project-imgs/cryptovoyage.jpg",
     imgGif: "project-imgs/cryptovoyage-preview.gif",
     code: "https://github.com/harrymcdonagh/crypto-voyage",
@@ -58,7 +58,7 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Crypto Voyage is a web-based React application designed to help users navigate
+          CryptoVoyage is a web-based React application designed to help users navigate
           and analyse the top cryptocurrencies.
         </p>
         <p>
