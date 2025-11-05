@@ -12,24 +12,25 @@ export const About = () => {
         <div className="pt-0 md:pt-12 space-y-4">
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              Hi! I&apos;m Harry, an aspiring software engineer from Brentwood, Essex. I
-              recently graduated with a 2:1 in Computer Science from the University of
-              East Anglia.
+              Hi! I&apos;m Harry, a Computer Science graduate from Brentwood, Essex. I
+              recently completed my degree (2:1) at the University of East Anglia.
             </p>
           </Reveal>
+
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              During my time at university I developed a passion for software development,
-              and have been working on a variety of projects alongside university, to
-              improve my programming skills and knowledge. I have experience with a range
-              of technologies and languages, including Python, Java, Typescript and React.
+              Throughout my degree, I developed a strong foundation in programming,
+              problem-solving and modern software tools. I worked on a range of academic
+              and independent projects, gaining experience with technologies such as
+              Python, Java, TypeScript, and React.
             </p>
           </Reveal>
+
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              I am actively pursuing graduate positions and internships where I can
-              utilise my university education and project experience to apply my skills in
-              a real-world context.
+              I&apos;m now looking to take the next step in my career, where I can apply
+              my technical skills and continue developing as a professional in a
+              collaborative, real-world environment.
             </p>
           </Reveal>
           <Reveal>

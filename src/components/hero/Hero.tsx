@@ -26,17 +26,17 @@ const Hero = () => {
                 className="mt-3 text-pretty text-slate-300
                              text-xl sm:text-2xl lg:text-3xl"
               >
-                An{" "}
+                A{" "}
                 <span className="font-semibold text-sky-400">
-                  Aspiring Software Engineer
+                  Computer Science Graduate
                 </span>
               </h2>
             </Reveal>
 
             <Reveal>
               <p className="mt-4 max-w-xl text-pretty leading-relaxed text-slate-300 text-left">
-                I&apos;m a recent Computer Science graduate with a growing passion for
-                software development ✨
+                I&apos;m a Computer Science graduate with a strong interest in building
+                thoughtful, practical software solutions ✨
               </p>
             </Reveal>
 
@@ -57,9 +57,7 @@ const Hero = () => {
             </Reveal>
           </div>
 
-          {/* Image */}
           <div className="relative flex justify-center lg:justify-end">
-            {/* subtle ambient glow */}
             <div className="absolute inset-0 -z-10 rounded-3xl bg-sky-500/10 blur-3xl" />
             <img
               src="project-imgs/Graduate.jpg"
